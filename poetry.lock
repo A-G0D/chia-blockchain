@@ -1962,25 +1962,22 @@ files = [
 
 [[package]]
 name = "diff-cover"
-version = "10.5.1"
+version = "11.0.0"
 description = "Run coverage and linting reports on diffs"
 optional = true
-python-versions = ">=3.10"
+python-versions = ">=3.11"
 groups = ["main"]
 markers = "extra == \"dev\""
 files = [
-    {file = "diff_cover-10.5.1-py3-none-any.whl", hash = "sha256:67ce07494e605b5d7d7b04aeec2cf524950ed0c12f026dd176883cf33c74fba0"},
-    {file = "diff_cover-10.5.1.tar.gz", hash = "sha256:f1c9417c62111e40a81c482c692c5cdd131ff93317baa993044cb291912ebba3"},
+    {file = "diff_cover-11.0.0-py3-none-any.whl", hash = "sha256:8b0a5b356d525718ee18c14b163ce179c75ccdc5b8d5474ef22ade6a0e1fa65d"},
+    {file = "diff_cover-11.0.0.tar.gz", hash = "sha256:5450247cc885ac0c252f0d7a4cf91608f454377c6f88e579bc9ead410af50c36"},
 ]
 
 [package.dependencies]
 chardet = ">=3.0.0"
-Jinja2 = ">=2.7.1"
+jinja2 = ">=2.7.1"
 pluggy = ">=0.13.1,<2"
-Pygments = ">=2.19.1,<3.0.0"
-
-[package.extras]
-toml = ["tomli (>=1.2.1)"]
+pygments = ">=2.19.1,<3"
 
 [[package]]
 name = "distlib"
@@ -5383,4 +5380,4 @@ upnp = ["miniupnpc"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.11, <4"
-content-hash = "468ef81de25b0bdd675cc0c7870a436111b6e2c1d2ea0d46e602435b65069ca1"
+content-hash = "8ba4f611073a0292c7e63a77dfd181f24ed8a3a9400b605aba8214efa23eccf5"
